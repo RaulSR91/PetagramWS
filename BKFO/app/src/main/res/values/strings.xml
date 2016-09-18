@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+
+    <string name="Nombre">Nombre</string>
+    <string name="Rating">Rating</string>
+    <string name="about">About</string>
+    <string name="contacto">Contacto</string>
+
+    <string name="nombreCompleto">Nombre Completo</string>
+    <string name="correo">Correo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviarMensaje">Enviar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="MiNombre">Raúl Salazar Romero</string>
+    <string name="Edad">25 Años</string>
+</resources>

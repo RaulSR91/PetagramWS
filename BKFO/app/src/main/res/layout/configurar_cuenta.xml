@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.salazar.raul.bkfo.contacto">
+
+
+    <android.support.design.internal.ForegroundLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:id="@+id/toolbar_configuracion"
+            app:layout_scrollFlags="scroll|enterAlways"
+
+            >
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tiNombreUsuario"
+                android:layout_below="@+id/tiNombre">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/TvUsuarioInstagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Escribe tu usuario"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+        <Button
+            android:id="@+id/btnConfigurarUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enviarMensaje"
+            android:theme="@style/MiBotonRaised"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+
+            />
+
+
+    </android.support.design.internal.ForegroundLinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

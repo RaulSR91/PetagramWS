@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context="com.salazar.raul.bkfo.AcercaDe">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:elevation="4dp"
+            android:id="@+id/toolbarAcercaDe"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            >
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"
+            android:text="@string/MiNombre"
+            android:layout_gravity="center"
+            android:textColor="@color/text_icons"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/texto"
+            android:text="@string/Edad"
+            android:layout_gravity="center"
+            android:textColor="@color/text_icons"
+            />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <ImageView
+        android:layout_marginTop="73dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:src="@drawable/prueba"
+
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <!--   <item
+        android:id="@+id/mHuella"
+        android:title="Huella"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/huella_2"
+        android:theme="@style/MiBotonRaised"
+
+        />
+-->
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/contacto"
+        android:orderInCategory="100"
+        ></item>
+    <item
+        android:id="@+id/mAbout"
+        android:title="@string/about"
+        android:orderInCategory="101"
+        ></item>
+    <item
+        android:id="@+id/mConfiguracion"
+        android:title="Configurar Cuenta"
+        android:orderInCategory="102">
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/mEstrella"
+        android:title="Refresh"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/estrella_2"    />
+
+</menu>
